@@ -13,6 +13,8 @@ public class Main {
 	 * @throws Exception
 	 */
 
+public class Main {
+
 	public static void main(String[] args) {
 
 		int n = 10 ;
@@ -26,6 +28,7 @@ public class Main {
 	 * @return the 10th term of the fibonacci sequence
 	 * 
 	 */
+
 	public static int  fib(int n) {
 		if (n <= 1){
 			
@@ -36,4 +39,4 @@ public class Main {
 			return fib(n - 1) + fib(n - 2);
 		}
 	}
-}
+
